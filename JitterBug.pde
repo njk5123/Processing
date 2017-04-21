@@ -15,4 +15,10 @@ class JitterBug {
      void display() {
        ellipse(x, y, diameter, diameter);
      }
+     void setColor(){
+       fill(random(0,255),random(0,255),random(0,255));
+     }
+     void setSize(){
+       ellipse( x,y, random(0,30), random(0,30));
+     }
  }
